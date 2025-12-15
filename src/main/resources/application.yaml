@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: shadow
+  redis:
+    host: localhost
+    port: 6379
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: chatbot_sessions
+sessionKeys:
+  data: "session:data:"
+  trigger: "session:trigger:"
+  expired: "__keyevent@0__:expired"
+
